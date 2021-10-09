@@ -84,10 +84,8 @@ header > div {
   #hero {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
         justify-content:center;
         align-items: center;
-        align-content: center;
         height: 600px;
         background-color: rgba(232,217,217,.3);
   }
@@ -124,10 +122,7 @@ header > div {
       height: 400px;
       display: flex;
       flex-direction: column;
-      align-content: center;
-      justify-content:center;
       align-items: center;
-      flex-wrap: nowrap;
 
   }
 
@@ -145,4 +140,50 @@ header > div {
         width: 600px;
         text-align: center;
         margin-bottom: 20px;
+}
+
+
+
+
+.sellingpoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+#end h3 {
+    color: #ED1C24;
+}
+
+#end {
+    margin-top: 50px;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    width: 320px;
+
+}
+
+.container img {
+    width: 25px;
+}
+
+.createOrg {
+	display: flex;
+	justify-content: center;
+}
+
+.createOrg a {
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white !important;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 10px 0 50px 0 ;
 }
